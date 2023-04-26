@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    .avartar {
+        display: none;
+    }
+    .web-cc {
+        border-right: none;
+        border-bottom: 1px solid orange;
+    }
+    .chungchi1-2 {
+        border-bottom: none;
+    }
+    .chungchi,.chungchi-img,.chungchi-litte {
+        flex: none;
+    }
+    .chungchi img {
+        width: 100%;
+    }
+    
+    /* project-charter */
+    .project {
+        display: inline-block;
+    }
+    .project,.goal, .member, .primary-list, .timeline-list,.team {
+        margin: 0px;
+    }
+}

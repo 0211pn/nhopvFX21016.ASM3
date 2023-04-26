@@ -1,0 +1,46 @@
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        
+    }
+    .web-cc {
+        border-right: none;
+        
+    }
+    .chungchi1-2 {
+        border-bottom: none;
+    }
+    .chungchi,.chungchi-img,.chungchi-litte {
+        flex: none;
+    }
+    .chungchi3 {
+        width: 100%;
+    }
+    .web-cc, .javascript-cc {
+        border-bottom: 1px solid orange;
+    }
+    .javascript-cc {
+        padding-top:40px;
+    }
+    .lienlac {
+        width: 40%;
+    }
+
+    /* project-charter */
+    .project,.goal, .member, .primary-list, .timeline {
+        display: inline-block;
+        margin: 0px;
+    }
+    .primary-list {
+        padding: 10px 20px;
+    }
+    .time {
+        width: 30px;
+    }
+    .team {
+        margin: 0;
+    }
+    .goals i, .team i, .primary-list i {
+        padding: auto;
+    }
+}
